@@ -14,9 +14,9 @@
     "dotenv": "^16.0.3",
     "eslint": "^8.36.0",
     "eslint-config-next": "^13.2.4",
-    "firebase": "^9.19.1",
-    "firebase-admin": "^11.6.0",
-    "next": "^13.3.0",
+    "firebase": "^10.14.1",
+    "firebase-admin": "^14.5.0",
+    "next": "^15.5.28",
     "prismjs": "^1.29.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -38,5 +38,18 @@
     "postcss": "^8.4.21",
     "sass": "^1.61.0",
     "tailwindcss": "^3.3.1"
+  },
+  "overrides": {
+    "next": {
+      "postcss": "^8.5.29"
+    },
+    "refractor": {
+      "prismjs": "^1.30.0"
+    },
+    "@typescript-eslint/typescript-estree": {
+      "minimatch": "^9.0.7"
+    },
+    "@grpc/grpc-js": "^1.13.6",
+    "undici": "^6.29.1"
   }
 }
